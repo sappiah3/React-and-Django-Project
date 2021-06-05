@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game of Life</title>
+    <!-- Our Style Sheet -->
+    <link rel="stylesheet" href='gol.css'>
+    
+    
+    </head>
+<body>
+    <div id='world'>
+     <h2>Game of Life</h2>
+	 <h2>Click on table cells to toggle the cells as alive or dead.</h2>
+    </div>
+    <div class="button">
+        
+        
+        <input type='button' id='btnevolve' value='Generate Once' onclick='evolve()' />
+		<input type='button' id='btnstartstop' value='Start Generation' onclick='startStopGol()' />
+		<input type='button' id='btnstop' value='Stop' onclick='stop();' />
+        <input type='button' id='btnreset' value='Reset' onclick='resetWorld()' />
+        
+
+    </div>
+     <div class="latte">
+	
+	<button  onclick="still()">Still</button>
+	<button  onclick="blinker()">Blinker</button>
+	<button  onclick="toad()">Toad</button>
+	<button  onclick="glider()">Glider</button>
+	<p>Population:<span id="score"></span></p>    <p>Generation:<span id="gen"></span></p>
+	</div>
+    <!-- Our JavaScript -->
+    <script src='gol.js'></script>
+    <script type="text/javascript">
+        var sc_project = 5720155;
+        var sc_invisible = 1;
+        var sc_security = "7f81280f";
+        var scJsHost = "https://";
+        document.write("<sc" + "ript type='text/javascript' src='" +
+            scJsHost +
+            "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript>
+        <div class="statcounter">
+            <a title="Web Analytics"
+               href="https://statcounter.com/" target="_blank">
+                <img class="statcounter"
+                     src="https://c.statcounter.com/10386056/0/2cbb24b3/0/"
+                     alt="Web Analytics">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+    <!-- Default Statcounter code for Nilmotsolutions.com
+    http://www.nilmotsolutions.com -->
+    <script type="text/javascript">
+        var sc_project = 10386056;
+        var sc_invisible = 1;
+        var sc_security = "2cbb24b3";
+        var scJsHost = "https://";
+        document.write("<sc" + "ript type='text/javascript' src='" +
+            scJsHost +
+            "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript>
+        <div class="statcounter">
+            <a title="Web Analytics"
+               href="https://statcounter.com/" target="_blank">
+                <img class="statcounter"
+                     src="https://c.statcounter.com/10386056/0/2cbb24b3/0/"
+                     alt="Web Analytics">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+</body>
+</body>
+</html>
